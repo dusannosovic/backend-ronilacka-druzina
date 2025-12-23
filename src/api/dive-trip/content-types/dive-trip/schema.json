@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dive_trips",
+  "info": {
+    "singularName": "dive-trip",
+    "pluralName": "dive-trips",
+    "displayName": "Dive Trip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "lak",
+        "prosečan",
+        "težak"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "featuredImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locationUrl": {
+      "type": "string"
+    }
+  }
+}
