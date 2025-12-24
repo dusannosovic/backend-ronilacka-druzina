@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_applications",
+  "info": {
+    "singularName": "course-application",
+    "pluralName": "course-applications",
+    "displayName": "Course-Application"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "people": {
+      "type": "integer"
+    },
+    "courseTitle": {
+      "type": "string"
+    }
+  }
+}
